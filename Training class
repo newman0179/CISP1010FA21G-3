@@ -13,4 +13,80 @@ public class Training {
     public Training() {
     }
 
+    public Training(String courseName, String presenterName, int availableSeats, String date, String time, String duration, String room, String speaker) {
+        this.courseName = courseName;
+        this.presenterName = presenterName;
+        this.availableSeats = availableSeats;
+        this.date = date;
+        this.time = time;
+        this.duration = duration;
+        this.room = room;
+        this.speaker = speaker;
+
+    }
+
+    public void setCourseName(String courseName) {
+        this.courseName = courseName;
+    }
+
+    public void setPresenterName(String presenterName) {
+        this.presenterName = presenterName;
+    }
+
+    public void setAvailableSeats(int availableSeats) {
+        this.availableSeats = availableSeats;
+    }
+
+    public void setDate(String date) {
+        this.date = date;
+    }
+
+    public void setTime(String time) {
+        this.time = time;
+    }
+
+    public void setDuration(String duration) {
+        this.duration = duration;
+    }
+
+    public void setRoom(String room) {
+        this.room = room;
+    }
+
+    public void setSpeaker(String speaker) {
+        this.speaker = speaker;
+    }
+
+    public String getCourseName() {
+        return courseName;
+    }
+
+    public String getPresenterName() {
+        return presenterName;
+    }
+
+    public int getAvailableSeats() {
+        return availableSeats;
+    }
+
+    public String getDate() {
+        return date;
+    }
+
+    public String getTime() {
+        return time;
+    }
+
+    public String getDuration() {
+        return duration;
+    }
+
+    public String getRoom() {
+        return room;
+    }
+
+    public String getSpeaker() {
+        return speaker;
+    }
+    
 }
