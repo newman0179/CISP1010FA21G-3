@@ -1,0 +1,16 @@
+
+public class Training {
+
+    private String courseName;
+    private String presenterName;
+    private int availableSeats;
+    private String date;
+    private String time;
+    private String duration;
+    private String room;
+    private String speaker;
+
+    public Training() {
+    }
+
+}
